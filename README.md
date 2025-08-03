@@ -35,4 +35,6 @@ GitHub - [YUNUSULTRA123](https://github.com/YUNUSULRTA123)
 
 Бот - [@callthisbotjo63_bot](https://web.telegram.org/a/#8428409248)
 
+Пулл-регуест - [pull-request](https://github.com/YUNUSULRTA123/bot_called_jo/pulls)
+
 # **Спасибо за внимание 🙏**
