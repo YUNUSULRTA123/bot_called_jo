@@ -31,4 +31,6 @@ telegram-bot-jo/
 ## 📬 Обратная связь
 Телеграм - [@yunus_pro_hour_of_code](https://web.telegram.org/a/#6475466684)
 
-GitHub - [YUNUSULTRA123](https://github.com/YUNUSULRTA123123)
+GitHub - [YUNUSULTRA123](https://github.com/YUNUSULRTA123)
+
+Бот - [@callthisbotjo63_bot](https://web.telegram.org/a/#8428409248)
