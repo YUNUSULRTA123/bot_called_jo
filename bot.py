@@ -40,12 +40,8 @@ facts = [
 ]
 
 @bot.message_handler(commands=['start','help'])
-def start(message):
-    keyboard = types.ReplyKeyboardMarkup(resize_keyboard=True)
-    button1 = types.KeyboardButton("Button 1")
-    button2 = types.KeyboardButton("Button 2")
-    keyboard.add(button1, button2) 
-    bot.send_message(message.chat.id, "Добро пожаловать!", reply_markup=keyboard)
+def start(message): 
+    bot.send_message(message.chat.id, "Добро пожаловать! Напиши /info если хочешь узнать больше о функциях")
 
 @bot.message_handler(commands=['info','jo'])
 def info(message):
@@ -60,6 +56,7 @@ def info(message):
 ➡️ /fun_fact — узнать интересный факт 🌍
 ➡️ /car — получить информацию о твоей машине 🚗
 💬 Просто напиши мне любое сообщение и я стану папугаем 🤣, а так я всегда готов поддержать разговор и помочь! 😊👍
+Создатель: @yunus_pro_hour_of_code
 """)
 
 @bot.message_handler(commands=['coin'])
