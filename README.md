@@ -25,7 +25,8 @@ telegram-bot-jo/
 │
 ├── bot.py              
 ├── telegram_token.py     
-├── README.md            
+├── README.md
+|── LICENSE.md    
 ```
 
 ### ❗ Важно
