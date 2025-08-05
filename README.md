@@ -23,7 +23,7 @@
 ```
 telegram-bot-jo/
 │
-├── main.py              
+├── bot.py              
 ├── telegram_token.py     
 ├── README.md            
 ```
