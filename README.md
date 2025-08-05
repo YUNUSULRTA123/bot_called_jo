@@ -42,12 +42,3 @@ GitHub - [YUNUSULTRA123](https://github.com/YUNUSULRTA123)
 
 ---
 # **Спасибо за внимание 🙏**
-
-```
-| İstifadə tələb                    | Model             | Qiymət (təxminən)                 | Üstünlükləri                                |
-| --------------------------------- | ----------------- | --------------------------------- | ------------------------------------------- |
-| Optimal balans sürət və keyfiyyət | **Anker 633 10K** | \~135–160 ₼                       | MagSafe, sürətli şarj, zəmanət              |
-| Ən portativ variant               | **Anker 622 5K**  | \~100 ₼                           | Yüngül, cibə rahat, maqnitlə ideal          |
-| Xaricdən ucuz və tez şarj         | **INIU 10K/20K**  | \$18–\$22 (cəmi 40–45 ₼ + gömrük) | 22.5 W PD, infaz zəmanət, yüngül və sürətli |
-
-```
