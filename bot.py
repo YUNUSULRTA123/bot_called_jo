@@ -58,10 +58,10 @@ def info(message):
 ➡️ /itjokes - услышать шутки про IT 💻😂
 ➡️ /quote — получить вдохновляющую цитату 🌟
 ➡️ /fun_fact — узнать интересный факт 🌍
+➡️ /car — получить информацию о твоей машине 🚗
 💬 Просто напиши мне любое сообщение и я стану папугаем 🤣, а так я всегда готов поддержать разговор и помочь! 😊👍
 """)
 
- 
 @bot.message_handler(commands=['coin'])
 def coin_handler(message):
     coin = choice(["ОРЕЛ", "РЕШКА"])
@@ -81,6 +81,27 @@ def quote(message):
 def fact(message):
     rand_fact = choice(facts)
     bot.reply_to(message, rand_fact)
+
+@bot.message_handler(commands=['car'])
+def car_info(message):
+    class Car():
+        def __init__(self, color, brand):
+            self.color = color
+            self.brand = brand
+        
+        def info(self):
+            return f"Цвет машины: {self.color}, Марка машины: {self.brand}"
+
+    args = telebot.util.extract_arguments(message.text).split()
+
+    if len(args) != 2:
+        bot.reply_to(message, """
+Чтобы получить информацию о вашей машине, введите команду следующим образом:
+Пример использования: /car черный BMW""")
+
+    color, brand = args
+    my_car = Car(color, brand)
+    bot.reply_to(message, my_car.info())
 
 @bot.message_handler(func=lambda message: True)
 def echo_message(message):
