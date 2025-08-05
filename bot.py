@@ -1,5 +1,4 @@
 import telebot 
-from telebot import types
 import sys
 import os
 sys.path.append(os.getcwd())
@@ -107,3 +106,4 @@ def echo_message(message):
 if __name__ == "__main__":
     print("Бот запускается...")
     bot.polling()
+
